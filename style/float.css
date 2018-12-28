@@ -1,0 +1,39 @@
+* {
+  width: 90%;
+  margin: 0px auto;
+}
+
+header {
+  width: 90%;
+  height: 15%;
+  background-color: rgb(29, 142, 187);
+}
+
+#left {
+  width: 20%;
+  height: 70%;
+  background-color: rgb(19, 214, 221);
+  float: left;
+}
+
+#content {
+  width: 60%;
+  height: 70%;
+  background-color: rgb(218, 111, 129);
+  float: left;
+}
+
+#right {
+  width: 20%;
+  height: 70%;
+  background-color: rgb(26, 180, 103);
+  float: left;
+}
+
+
+footer {
+  width: 90%;
+  height: 15%;
+  background-color: rgb(156, 6, 156);
+  float: left;
+}
