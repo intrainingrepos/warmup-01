@@ -1,12 +1,37 @@
 * {
-  width: 960px;
+  width: 90%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  
 }
 
 header {
-  width: 960px;
-  height: 
+  width: 90%;
+  height: 15%;
+  background-color: rgb(29, 142, 187);
+}
 
+#left {
+  width: 20%;
+  height: 70%;
+  background-color: rgb(19, 214, 221);
+}
+
+#content {
+  width: 60%;
+  height: 70%;
+  background-color: rgb(218, 111, 129);
+}
+
+#right {
+  width: 20%;
+  height: 70%;
+  background-color: rgb(26, 180, 103);
+}
+
+
+footer {
+  width: 90%;
+  height: 15%;
+  background-color: rgb(156, 6, 156);
 }
