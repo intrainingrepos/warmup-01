@@ -1,39 +1,26 @@
-* {
-  width: 90%;
-  margin: 0px auto;
-}
 
-header {
-  width: 90%;
-  height: 15%;
-  background-color: rgb(29, 142, 187);
-}
+@media (min-width: 600px) {
+  main {
+    height: calc(100% - 140px);
+    overflow: hidden;
+  }
 
-#left {
-  width: 20%;
-  height: 70%;
-  background-color: rgb(19, 214, 221);
-  float: left;
-}
+  main > nav {
+    float: left;
+    height: 100%;
+    width: 150px;
+  }
 
-#content {
-  width: 60%;
-  height: 70%;
-  background-color: rgb(218, 111, 129);
-  float: left;
-}
+  main > aside {
+    float: right;
+    height: 100%;
+    width: 150px;
+  }
 
-#right {
-  width: 20%;
-  height: 70%;
-  background-color: rgb(26, 180, 103);
-  float: left;
-}
+  main > section {
+    height: 100%;
+    float: left;
+    width: calc(100% - 300px);
+  }
 
-
-footer {
-  width: 90%;
-  height: 15%;
-  background-color: rgb(156, 6, 156);
-  float: left;
 }
