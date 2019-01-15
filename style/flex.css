@@ -1,0 +1,49 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main > nav {
+  order:2;
+}
+
+main > section {
+  order: 1;
+}
+
+main > aside {
+  order: 3;
+}
+
+@media (min-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex-direction: row;
+    flex: 1;
+  }
+
+  main > nav {
+    order: 1;
+    width: 150px;
+  }
+
+  main > section {
+    order: 2;
+    flex: 1;
+  }
+
+  main > aside {
+    order: 3;
+    width: 150px;
+  }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
